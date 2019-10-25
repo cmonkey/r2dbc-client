@@ -1,4 +1,4 @@
-package org.excavator.boot.r2dbc.response;
+package org.excavator.boot.r2dbc.client.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GreetingResponse{
-    private String message;
+public class GreetingRequest{
+    private String name;
 }

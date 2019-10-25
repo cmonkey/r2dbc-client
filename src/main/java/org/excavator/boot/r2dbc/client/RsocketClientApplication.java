@@ -1,4 +1,4 @@
-package org.excavator.boot.r2dbc;
+package org.excavator.boot.r2dbc.client;
 
 import lombok.SneakyThrows;
 import org.springframework.boot.SpringApplication;

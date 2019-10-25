@@ -1,8 +1,8 @@
 package org.excavator.boot.r2dbc.client;
 
 import lombok.RequiredArgsConstructor;
-import org.excavator.boot.r2dbc.request.GreetingRequest;
-import org.excavator.boot.r2dbc.response.GreetingResponse;
+import org.excavator.boot.r2dbc.client.request.GreetingRequest;
+import org.excavator.boot.r2dbc.client.response.GreetingResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
